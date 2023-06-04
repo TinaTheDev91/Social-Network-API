@@ -12,7 +12,6 @@ const thoughtSchema = new Schema(
       required: true,
       maxlength: 150,
       minlength: 4,
-    //   default: 'Unnamed assignment',
     },
     user: [
         {
